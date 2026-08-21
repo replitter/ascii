@@ -64,6 +64,6 @@ Initial public release.
   name.
 - Resolution changes rebuild all graphics/interop resources automatically.
 
-[unreleased]: https://github.com/replitter/ascii2/compare/v1.0.0-alpha.2...HEAD
-[v1.0.0-alpha.2]: https://github.com/replitter/ascii2/compare/v1.0.0-alpha.1...v1.0.0-alpha.2
-[v1.0.0-alpha.1]: https://github.com/replitter/ascii2/releases/tag/v1.0.0-alpha.1
+[unreleased]: https://github.com/replitter/ascii/compare/v1.0.0-alpha.2...HEAD
+[v1.0.0-alpha.2]: https://github.com/replitter/ascii/compare/v1.0.0-alpha.1...v1.0.0-alpha.2
+[v1.0.0-alpha.1]: https://github.com/replitter/ascii/releases/tag/v1.0.0-alpha.1
