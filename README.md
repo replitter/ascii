@@ -149,8 +149,7 @@ installed, no registry, no admin rights needed.
    Tune *Sensitivity* (Ctrl+Left/Right also works while motion mode is on) and *Decay*.
 6. **Try Heat Mode** — Ctrl+M turns bright areas into glowing blobs (great on dark
    wallpapers/videos). Ctrl+B is the "clean" variant without glyph cutouts.
-7. **Random density** — press **Ctrl+Alt** (nothing else held). That toggles ASCII Random %
-   between 100% and your last value. Set the exact value in the menu under *ASCII Random*:
+7. **Random density** — open the menu (Ctrl+Alt) and find the *ASCII Random* section:
    e.g. 10% renders only a random tenth of the screen as ASCII.
 8. **Random filters** — in *Filters & Colors*, set *Invert Random %* to 30 and *Theme
    Random %* to 30: 30% of cells invert and a different 30% get the theme, in stable random
@@ -169,9 +168,8 @@ installed, no registry, no admin rights needed.
 | `Ctrl+H` or `` ` `` (tilde) | Help overlay |
 | `Ctrl+R` | Reload `config.ini` |
 | `Ctrl+S` | Save current settings to `config.ini` |
-| `Ctrl+Alt+S` | Settings menu |
+| `Ctrl+Alt+S` | Settings menu (also: bare `Ctrl+Alt`) |
 | `Ctrl+Shift` | Metrics overlay |
-| `Ctrl+Alt` (bare) | **Toggle ASCII Random %** on/off (100% ↔ last value) |
 | `Ctrl+`` ` `` | Spacing / ramp editor |
 | `Ctrl+]` / `Ctrl+[` | Next / previous ramp |
 | `Ctrl+Right` / `Ctrl+Left` | Glyph size +1 / −1 (in Motion Mode: sensitivity ±5) |
@@ -363,7 +361,7 @@ grid dimensions, renderer mode, and scrolling history graphs for every major tim
 | Overlay visible in recordings? | It shouldn't be — the window is capture-excluded. Some capture tools with custom hooks may bypass this |
 | Everything is one character | Adjust Brightness / Contrast / Final Luminance; check the ramp isn't a single repeated char |
 | Colors look wrong with HDR on | Toggle HDR off, or expect SDR tone-mapping |
-| AltGr types weird chars in other apps | Bare Ctrl+Alt is bound to ASCII Random toggle; it only fires when no other key is held, so typing AltGr characters is unaffected |
+| AltGr types weird chars in other apps | Bare Ctrl+Alt opens the settings menu; it only fires when no other key is held, so typing AltGr characters is unaffected |
 | Settings lost after restart | You didn't save — Ctrl+S, or enable saving before quitting |
 | nvcc fails silently when scripting builds | Set `TMP`/`TEMP` to a Windows path (see Building) |
 

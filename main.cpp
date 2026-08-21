@@ -127,7 +127,6 @@ struct AppState {
     int lumSeqIndex = 0;
     DWORD lumSeqLastChange = 0;
     float lumSeqCurrentValue = 1.0f;
-    float asciiRandomSaved = 30.0f;
 };
 
 static AppState g_state;
@@ -463,17 +462,8 @@ static void PollModifierChords() {
 
     bool ctrlAlt = ctrl && alt && !shift && !AnyOtherKeyDown();
     if (ctrlAlt && !g_state.ctrlAltLatched) {
-        // Bare Ctrl+Alt toggles ASCII Random density between 100% and the
-        // last used value (menu still opens with Ctrl+Alt+S)
-        if (g_config.asciiRandomPercent >= 99.999f) {
-            if (g_state.asciiRandomSaved <= 0.5f || g_state.asciiRandomSaved >= 99.999f) {
-                g_state.asciiRandomSaved = 30.0f;
-            }
-            g_config.asciiRandomPercent = g_state.asciiRandomSaved;
-        } else {
-            g_state.asciiRandomSaved = g_config.asciiRandomPercent;
-            g_config.asciiRandomPercent = 100.0f;
-        }
+        g_state.menuVisible = !g_state.menuVisible;
+        UpdateOverlayInteractivity();
         g_state.ctrlAltLatched = true;
     } else if (!ctrlAlt) {
         g_state.ctrlAltLatched = false;

@@ -1358,7 +1358,6 @@ static void DrawSearchableSettings(bool &showSettings) {
       if (rp > 100.0f) rp = 100.0f;
       g_config.asciiRandomPercent = rp;
     }
-    ImGui::TextDisabled("Bare Ctrl+Alt toggles between 100%% and this value");
   }
 
   if (PassesFilter("filters colors theme invert grayscale brightness contrast "
