@@ -1,0 +1,23 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -fms-extensions
+    - -fms-compatibility
+    - -fms-compatibility-version=19.50
+    - -DUNICODE
+    - -D_UNICODE
+    - -DWIN32_LEAN_AND_MEAN
+    - -IC:/Users/peak/Desktop/ascii
+    - -IC:/Users/peak/Desktop/ascii/imgui
+    - -IC:/Users/peak/Desktop/ascii/imgui/backends
+
+---
+If:
+  PathMatch: .*\.cu
+CompileFlags:
+  Add:
+    - -x
+    - cuda
+    - --cuda-path=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2
+    - --cuda-gpu-arch=sm_75
+    - -IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include

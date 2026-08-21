@@ -1,0 +1,19 @@
+{
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}"
+  ],
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/imgui",
+    "${workspaceFolder}/imgui/backends",
+    "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include"
+  ],
+  "C_Cpp.default.defines": [
+    "UNICODE",
+    "_UNICODE",
+    "WIN32_LEAN_AND_MEAN"
+  ],
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cudaPath": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2"
+}

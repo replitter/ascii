@@ -1,0 +1,15 @@
+# Build artifacts
+*.obj
+*.exe
+*.log
+*.ilk
+*.pdb
+
+# User-local state
+config.ini
+imgui.ini
+.cache/
+
+# Temp build scripts
+_*.bat
+_*.txt

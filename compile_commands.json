@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "clang++ -x cuda --cuda-path=\"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2\" --cuda-gpu-arch=sm_75 -std=c++17 -fms-extensions -fms-compatibility -fms-compatibility-version=19.50 -DUNICODE -D_UNICODE -DWIN32_LEAN_AND_MEAN -IC:/Users/peak/Desktop/ascii -IC:/Users/peak/Desktop/ascii/imgui -IC:/Users/peak/Desktop/ascii/imgui/backends -I\"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include\" -c C:/Users/peak/Desktop/ascii/cuda_renderer.cu",
+    "file": "C:/Users/peak/Desktop/ascii/cuda_renderer.cu"
+  },
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "cl.exe /nologo /c /std:c++17 /MT /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /IC:/Users/peak/Desktop/ascii /IC:/Users/peak/Desktop/ascii/imgui /IC:/Users/peak/Desktop/ascii/imgui/backends C:/Users/peak/Desktop/ascii/config.cpp",
+    "file": "C:/Users/peak/Desktop/ascii/config.cpp"
+  },
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "cl.exe /nologo /c /std:c++17 /MT /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /IC:/Users/peak/Desktop/ascii /IC:/Users/peak/Desktop/ascii/imgui /IC:/Users/peak/Desktop/ascii/imgui/backends C:/Users/peak/Desktop/ascii/graphics.cpp",
+    "file": "C:/Users/peak/Desktop/ascii/graphics.cpp"
+  },
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "cl.exe /nologo /c /std:c++17 /MT /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /IC:/Users/peak/Desktop/ascii /IC:/Users/peak/Desktop/ascii/imgui /IC:/Users/peak/Desktop/ascii/imgui/backends C:/Users/peak/Desktop/ascii/font_atlas.cpp",
+    "file": "C:/Users/peak/Desktop/ascii/font_atlas.cpp"
+  },
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "cl.exe /nologo /c /std:c++17 /MT /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /IC:/Users/peak/Desktop/ascii /IC:/Users/peak/Desktop/ascii/imgui /IC:/Users/peak/Desktop/ascii/imgui/backends C:/Users/peak/Desktop/ascii/menu.cpp",
+    "file": "C:/Users/peak/Desktop/ascii/menu.cpp"
+  },
+  {
+    "directory": "C:/Users/peak/Desktop/ascii",
+    "command": "cl.exe /nologo /c /std:c++17 /MT /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /IC:/Users/peak/Desktop/ascii /IC:/Users/peak/Desktop/ascii/imgui /IC:/Users/peak/Desktop/ascii/imgui/backends C:/Users/peak/Desktop/ascii/main.cpp",
+    "file": "C:/Users/peak/Desktop/ascii/main.cpp"
+  }
+]
