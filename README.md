@@ -396,3 +396,8 @@ menu.cpp            ImGui UI: settings, ramp editor, metrics, help, presets
 
 Built with the CUDA 13.2 toolkit, D3D11, GDI, and Dear ImGui. Runs entirely locally — no
 network access, no telemetry, nothing leaves your machine.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Dear ImGui is vendored under its own MIT license
+([imgui/LICENSE.txt](imgui/LICENSE.txt)).
